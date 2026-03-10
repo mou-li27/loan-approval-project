@@ -28,7 +28,7 @@ Advice: Strong application. Maintain credit history before submission.
 
 ## Dataset Overview
 
-![Target Distribution]
+Target Distribution
 <img width="1123" height="515" alt="target_distribution" src="https://github.com/user-attachments/assets/42cc0c86-67dc-4b93-925b-02244b5b42ab" />
 
 **614 real loan applicants** from the Kaggle Loan Prediction dataset.
@@ -52,8 +52,9 @@ Six machine learning models were trained and compared. The best model — a **tu
 
 
 ## Model Comparison
+<img width="1389" height="690" alt="model_comparison" src="https://github.com/user-attachments/assets/20ebb50d-b2dc-4db5-a933-8d5eded83725" />
 
-![Model Comparison](images/model_comparison.png)
+Model Comparison
 
 | Model | Accuracy | ROC-AUC |
 |---|---|---|
@@ -70,7 +71,8 @@ Random Forest was selected as the final model — best balance of accuracy and g
 
 ## ROC Curves — All Models
 
-![ROC Curves](images/roc_curves.png)
+ROC Curves
+<img width="989" height="690" alt="roc_curves" src="https://github.com/user-attachments/assets/6bfd96bc-3ee6-4eec-bd78-c1f46d18666e" />
 
 All six models plotted on a single chart. The closer a curve hugs the top-left corner, the better the model. The dashed diagonal line represents a model that guesses randomly.
 
@@ -78,7 +80,8 @@ All six models plotted on a single chart. The closer a curve hugs the top-left c
 
 ## Feature Correlation Heatmap
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+Correlation Heatmap
+<img width="962" height="889" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/4cf8ad8e-44f1-4d4d-a5bc-5c6f4ae3cc0b" />
 
 **Credit History** has the strongest positive correlation with Loan Status — applicants with good credit history had a **79.6% approval rate** vs only **7.9%** for those with bad credit history.
 
@@ -86,7 +89,7 @@ All six models plotted on a single chart. The closer a curve hugs the top-left c
 
 ## Confusion Matrices
 
-![Confusion Matrices](images/confusion_matrices.png)
+<img width="1556" height="985" alt="confusion_matrices" src="https://github.com/user-attachments/assets/da87a124-c435-44b4-ae5e-536bf656f5f2" />
 
 Shows exactly where each model makes mistakes — False Positives (approved but shouldn't be) and False Negatives (rejected but should have been approved).
 
