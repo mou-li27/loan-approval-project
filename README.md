@@ -28,7 +28,8 @@ Advice: Strong application. Maintain credit history before submission.
 
 ## Dataset Overview
 
-![Target Distribution](images/target_distribution.png)
+![Target Distribution]
+<img width="1123" height="515" alt="target_distribution" src="https://github.com/user-attachments/assets/42cc0c86-67dc-4b93-925b-02244b5b42ab" />
 
 **614 real loan applicants** from the Kaggle Loan Prediction dataset.
 The dataset has a real-world class imbalance — **68.7% Approved vs 31.3% Rejected** — which was fixed using SMOTE before training.
